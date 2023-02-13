@@ -13,7 +13,11 @@ defmodule LiveViewCounter.Application do
       # Start the PubSub system
       {Phoenix.PubSub, name: LiveViewCounter.PubSub},
       # Start the Endpoint (http/https)
-      LiveViewCounterWeb.Endpoint
+      LiveViewCounterWeb.Endpoint,
+      # Moving state out of the LiveViews
+      LiveViewCounter.Counter,
+      # Track how many people are using our system
+      LiveViewCounter.Presence
       # Start a worker by calling: LiveViewCounter.Worker.start_link(arg)
       # {LiveViewCounter.Worker, arg}
     ]
