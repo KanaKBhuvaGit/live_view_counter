@@ -1,18 +1,21 @@
-# LiveViewCounter
+## Clone the project from GitHub:
 
-To start your Phoenix server:
+```sh
+git clone https://github.com/KanaKBhuvaGit/live_view_counter.git && cd live_view_counter
+```
 
-  * Install dependencies with `mix deps.get`
-  * Start Phoenix endpoint with `mix phx.server` or inside IEx with `iex -S mix phx.server`
+## Install dependencies and setup the database:
 
-Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
+```sh
+mix setup
+```
 
-Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
+## Start the Phoenix server:
 
-## Learn more
+```sh
+mix phx.server
+```
 
-  * Official website: https://www.phoenixframework.org/
-  * Guides: https://hexdocs.pm/phoenix/overview.html
-  * Docs: https://hexdocs.pm/phoenix
-  * Forum: https://elixirforum.com/c/phoenix-forum
-  * Source: https://github.com/phoenixframework/phoenix
+## Visit
+[`localhost:4000`](http://localhost:4000)
+in your web browser.
